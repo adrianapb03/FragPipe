@@ -1,0 +1,3 @@
+#GoToFolder (STILL BASH)
+cd /project/sheynkman/programs/fragpipe/fragpipe_input 
+./run_fragpipe.sh \ -t 25 \ -T 5:00:00 \ -M 500GB \ -m \ -o \ -w
