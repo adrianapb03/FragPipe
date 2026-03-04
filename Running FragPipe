@@ -2,7 +2,7 @@
 cd /project/sheynkman/programs/fragpipe/fragpipe_input 
 
 #This code is to run the 10 cell lines with NO UMPIRE workflow
-./run_fragpipe.sh -t 25 -T 5:00:00 -M 500GB -m /project/sheynkman/programs/fragpipe/fragpipe_input/manifest/AP_10linescell_rotationbatch.fp-manifest -o /scratch/zrn9wg/10linescell_noUMPIRE -w /project/sheynkman/programs/fragpipe/fragpipe_input/workflows/AP_MBR_DIA_SpecLib_Quant.workflow
+./run_fragpipe.sh -t 25 -T 5:00:00 -M 1000GB -m /project/sheynkman/programs/fragpipe/fragpipe_input/manifest/AP_10linescell_rotationbatch.fp-manifest -o /scratch/zrn9wg/10linescell_noUMPIRE -w /project/sheynkman/programs/fragpipe/fragpipe_input/workflows/AP_MBR_DIA_SpecLib_Quant.workflow
 
 #This code is to run the 10 cell lines with UMPIRE workflow
 ./run_fragpipe.sh -t 25 -T 5:00:00 -M 500GB -m /project/sheynkman/programs/fragpipe/fragpipe_input/manifest/AP_10linescell_rotationbatch.fp-manifest -o /scratch/zrn9wg/10linescell_UMPIRE -w /project/sheynkman/programs/fragpipe/fragpipe_input/workflows/AP_MBR_DIA_UMPIRE_SpecLib_Quant.workflow
