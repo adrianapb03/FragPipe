@@ -3,3 +3,7 @@ ssh -Y zrn9wg@login.hpc.virginia.edu
 cd /project/sheynkman/programs/fragpipe/msconvert 
 ./submit_msconvert.sh -r /project/sheynkman/users/adriana/rawfiles -o /project/sheynkman/users/adriana/mzMLfiles  -c ./pwiz-skyline-i-agree-to-the-vendor-licenses_latest.sif
 squeue -u zrn9wg
+
+
+TO CHECK FOR CORRUPTION
+tail -c 500 /project/sheynkman/users/adriana/mzMLfiles/az20260204a044.mzML
