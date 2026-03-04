@@ -1,4 +1,4 @@
 #To convert .raw files to .mzml (assuming all the files are in the right folder. All this code is done in Bash. 
-ssh -Y zrn9wg@login.hpc.virginia.edu    #First login to the hpc cluster
+ssh -Y zrn9wg@login.hpc.virginia.edu
 ./submit_msconvert.sh -r /project/sheynkman/users/adriana/rawfiles -o /project/sheynkman/users/adriana/mzMLfiles  -c ./pwiz-skyline-i-agree-to-the-vendor-licenses_latest.sif
 squeue -u zrn9wg
