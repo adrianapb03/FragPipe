@@ -1,3 +1,6 @@
+#Login
+ssh -Y zrn9wg@login.hpc.virginia.edu
+
 #GoToFolder (STILL BASH)
 cd /project/sheynkman/programs/fragpipe/fragpipe_input 
 
